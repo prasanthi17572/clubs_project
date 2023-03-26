@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <style>
+      .column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+.button {
+  background-color:rgb(56, 90, 159);
+  border:none;
+  color: white;
+  text-decoration:none;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.card {
+    background-color: rgb(51, 225, 167);
+    color:black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+        </style>
+    </head>
+    <script>
+          function disableBtn() {
+            document.getElementById("myBtn").disabled = true;
+            alert("room booked successfully");
+          }
+          
+          function enableBtn() {
+            document.getElementById("myBtn").disabled = false;
+            alert("your event is finished and booking time is completed")
+          }
+    </script>
+    <body>
+        <H1 style="text-align:center;color:rgb(222, 22, 22)";>ROOM BOOKING FOR CONDUCTING EVENTS</H1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+   <h2>room 110</a></h2>
+    </div>
+    <span><button class="button" id="myBtn" onclick="disableBtn()">book room</button>
+<button class="button" onclick="enableBtn()">event finished</button></span>
+  </div>
+  <div class="column">
+    <div class="card">
+   <h2>room 111</h2>
+    </div>
+    <span><button class="button" id="myBtn" onclick="disableBtn()">book room</button>
+  </div>
+  <div class="column">
+    <div class="card">
+   <h2>room 112</h2>
+    </div>
+    <span><button class="button" id="myBtn" onclick="disableBtn()">book room</button>
+  </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+         <h2>room 113</h2>
+          </div>
+          <span><button class="button" id="myBtn" onclick="disableBtn()">book room</button>
+        </div>
+        <div class="column">
+          <div class="card">
+         <h2>room 114</h2>
+          </div>
+          <span><button class="button" id="myBtn" onclick="disableBtn()">book room</button>
+        </div>
+        <div class="column">
+          <div class="card">
+         <h2>room 115</h2>
+          </div>
+          <span><button class="button" id="myBtn" onclick="disableBtn()">book room</button>
+        </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                 <h2>room 116</h2>
+                  </div>
+                  <span><button class="button" id="myBtn" onclick="disableBtn()">book room</button>
+                </div>
+                <div class="column">
+                  <div class="card">
+                 <h2>room 117</h2>
+                  </div>
+                  <span><button class="button" id="myBtn" onclick="disableBtn()">book room</button>
+                </div>
+                <div class="column">
+                  <div class="card">
+                 <h2>room 118</h2>
+                  </div>
+                  <span><button class="button" id="myBtn" onclick="disableBtn()">book room</button>
+                </div>
+                    </div>
+                     
+    </body>
+</html>
